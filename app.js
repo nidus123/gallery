@@ -13,7 +13,7 @@ var app = express();
 const tracer = require('dd-trace').init({
 env: "gallery",
 logInjection: true,
-profileEnabled: true,
+profiling: true,
 appsec: true
 })
 
